@@ -2,7 +2,7 @@ package org.example;
 
 import lombok.*;
 
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@Builder
 public class Author {
     private String firstName;
 

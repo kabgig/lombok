@@ -1,2 +1,5 @@
 org/example/Main.class
+org/example/Order.class
+org/example/Author$AuthorBuilder.class
 org/example/Author.class
+org/example/Order$OrderBuilder.class
