@@ -1,13 +1,9 @@
 package org.example;
 
-import lombok.AccessLevel;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
-
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class Author {
-    @Setter(AccessLevel.PROTECTED)
     private String firstName;
 
     private String lastName;
